@@ -1,0 +1,1 @@
+{"version":3,"sources":["meteor://💻app/template.main.js"],"names":[],"mappings":"YAAA;AACA;AACA;AACA;AACA;AACA","file":"/template.main.js","sourcesContent":["\nTemplate.__checkName(\"main\");\nTemplate[\"main\"] = new Template(\"Template.main\", (function() {\n  var view = this;\n  return HTML.Raw(\"<p>Main</p>\");\n}));\n"]}

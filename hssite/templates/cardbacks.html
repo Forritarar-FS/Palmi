@@ -1,0 +1,38 @@
+<template name="cardbacks">
+{{#if currentUser}}
+<nav class="navbar navbar-default navbar-fixed-top">
+	      <div class="container">
+	        <div class="navbar-header">
+	          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+	            <span class="sr-only">Toggle navigation</span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	          </button>
+	          <a class="navbar-brand" href="/">HS4FS</a>
+	        </div>
+	        <div id="navbar" class="collapse navbar-collapse">
+	          <ul class="nav navbar-nav">
+	            <li><a href="../">Home</a></li>
+	            <li><a href="/Cards">Cards</a></li>
+				<li class="active"><a href="/Cardbacks">Card Backs</a></li>
+	          </ul>
+	          <div class="nav navbar-nav navbar-right dropdown">
+	      		<li id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">{{> loginButtons}}</li>
+	  		  </div>
+        	</div><!--/.nav-collapse -->
+      	  </div>
+    	</nav>
+    	<div id="loading">
+    		{{> spinner}}
+    	</div>
+	<div onload="cardbacks()" class="container">
+	<h1 class="text-center">Hearthstone Cards</h1>
+	  <div id="cardbacks" style="margin-top:50px;" class="row">
+	  	
+	  </div>
+	</div>
+{{ else }}
+<script>Router.go('home');</script>
+{{/if}}
+</template>
