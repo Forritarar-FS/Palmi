@@ -24,4 +24,7 @@ accounts-password
 bootstrap
 http
 easy:search
+<<<<<<< HEAD
 sacha:spin
+=======
+>>>>>>> origin/master
