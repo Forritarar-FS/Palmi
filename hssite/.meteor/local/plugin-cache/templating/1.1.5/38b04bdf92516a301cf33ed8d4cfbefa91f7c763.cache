@@ -1,0 +1,1 @@
+{"head":"<title>hssite</title>","body":"","js":"\nTemplate.body.addContent((function() {\n  var view = this;\n  return HTML.DIV({\n    id: \"div\"\n  }, \"\\n\t  \", Spacebars.include(view.lookupTemplate(\"Router\")), \"\\n\t\");\n}));\nMeteor.startup(Template.body.renderToDocument);\n","bodyAttrs":{}}

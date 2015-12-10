@@ -1,0 +1,1 @@
+{"head":"","body":"","js":"\nTemplate.__checkName(\"home\");\nTemplate[\"home\"] = new Template(\"Template.home\", (function() {\n  var view = this;\n  return HTML.Raw(\"<p>Home</p>\");\n}));\n","bodyAttrs":{}}

@@ -1,0 +1,1 @@
+{"head":"","body":"","js":"\nTemplate.__checkName(\"EasySearch.Input\");\nTemplate[\"EasySearch.Input\"] = new Template(\"Template.EasySearch.Input\", (function() {\n  var view = this;\n  return HTML.INPUT(HTML.Attrs(function() {\n    return Spacebars.attrMustache(view.lookup(\"inputAttributes\"));\n  }));\n}));\n","bodyAttrs":{}}

@@ -21,3 +21,10 @@ insecure                # Allow all DB writes from clients (for prototyping)
 iron:router
 accounts-ui
 accounts-password
+bootstrap
+http
+easy:search
+<<<<<<< HEAD
+sacha:spin
+=======
+>>>>>>> origin/master
